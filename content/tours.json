@@ -1,0 +1,333 @@
+{
+  "tours": [
+    {
+      "id": "chocolate",
+      "eyebrow": "Half day · private group",
+      "title": "Grenada Highlights Half-Day Rum, Chocolate and Waterfall Tour",
+      "photo": "assets/img/tour-chocolate.jpg",
+      "photo_alt": "A King J’s group at the Clarke’s Court rum distillery",
+      "intro": "Chocolate, rum and a waterfall in one half day.",
+      "stops": [
+        {
+          "name": "House of Chocolate — 30 minutes",
+          "details": [
+            "Explore Grenada’s cocoa and chocolate heritage",
+            "Learn about local chocolate production",
+            "Chocolate sampling is included"
+          ]
+        },
+        {
+          "name": "Clarke’s Court Rum Distillery — 35 minutes",
+          "details": [
+            "Visit one of Grenada’s traditional rum distilleries",
+            "Learn about the rum-making process",
+            "Enjoy a rum tasting"
+          ]
+        },
+        {
+          "name": "Annandale Waterfall & Forest Park — 30 minutes",
+          "details": [
+            "Explore the tropical gardens surrounding the waterfall",
+            "Take photos",
+            "Enjoy a refreshing swim under the waterfall"
+          ]
+        }
+      ],
+      "included": [
+        "Private transportation",
+        "Air-conditioned vehicle",
+        "Bottled water",
+        "Alcoholic beverages and rum tasting",
+        "Entrance fees",
+        "Chocolate sampling"
+      ],
+      "route_label": "Tour flow",
+      "route": "Hotel or cruise port pickup → House of Chocolate → Clarke’s Court Rum Distillery → Annandale Falls → return to pickup location.",
+      "paragraphs": [],
+      "price": "Price on request",
+      "gallery": [
+        {
+          "image": "assets/img/tour-rum-1.jpg",
+          "alt": "A King J’s tour group at the Clarke’s Court rum distillery mural"
+        },
+        {
+          "image": "assets/img/tour-rum-2.jpg",
+          "alt": "Guests in distillery hard hats with their rum at Clarke’s Court"
+        },
+        {
+          "image": "assets/img/tour-rum-3.jpg",
+          "alt": "Pouring the rum tasting at the distillery bar"
+        },
+        {
+          "image": "assets/img/tour-rum-4.jpg",
+          "alt": "A group outside Nick’s Barrel House with the King J’s sign"
+        },
+        {
+          "image": "assets/img/tour-rum-5.jpg",
+          "alt": "Guests with bottles of Clarke’s Court rum in the distillery shop"
+        },
+        {
+          "image": "assets/img/tour-rum-6.jpg",
+          "alt": "A full tour group with the King J’s drivers and vans"
+        }
+      ],
+      "note": "The tour is operated by King J’s Taxi Services and Tours and is offered as a private experience, so only your group participates.",
+      "closing": "",
+      "card_kicker": "Half day · private group",
+      "card_text": "House of Chocolate, a rum tasting at Clarke’s Court Rum Distillery, and a swim at Annandale Waterfall & Forest Park.",
+      "card_price": "On request"
+    },
+    {
+      "id": "island",
+      "eyebrow": "Approximately 3–4 hours · private group",
+      "title": "Best of Grenada: Waterfall, Grand Etang & Chocolate Half Day Tour",
+      "photo": "assets/img/tour-falls.jpg",
+      "photo_alt": "Annandale Falls in the Grenadian rainforest",
+      "intro": "Duration: approximately 3–4 hours.",
+      "stops": [
+        {
+          "name": "Annandale Waterfall & Forest Park — 30 minutes",
+          "details": [
+            "Explore the beautiful waterfall and tropical surroundings",
+            "Opportunity for photos and a refreshing swim",
+            "Admission included"
+          ]
+        },
+        {
+          "name": "House of Chocolate / Tri-Island Chocolate — 60 minutes",
+          "details": [
+            "Learn about Grenada’s cocoa and chocolate-making heritage",
+            "See the chocolate-making process",
+            "Enjoy chocolate sampling"
+          ]
+        },
+        {
+          "name": "Grand Etang National Park — 30 minutes",
+          "details": [
+            "Visit the scenic Grand Etang crater lake",
+            "Enjoy the rainforest scenery and cool mountain atmosphere",
+            "Opportunity to spot local wildlife, including monkeys"
+          ]
+        }
+      ],
+      "included": [
+        "Private transportation",
+        "Air-conditioned vehicle",
+        "Admission fees",
+        "Bottled water",
+        "Cold towel",
+        "Chocolate sampling",
+        "Rum punch / alcoholic beverages"
+      ],
+      "route_label": "Tour route",
+      "route": "Annandale Falls → Tri-Island Chocolate → Grand Etang Lake → return to pickup point.",
+      "paragraphs": [],
+      "price": "Price on request",
+      "gallery": [
+        {
+          "image": "assets/img/tour-monkey-1.jpg",
+          "alt": "A group of guests meeting a mona monkey at Grand Etang"
+        },
+        {
+          "image": "assets/img/tour-monkey-2.jpg",
+          "alt": "A guest laughing as a mona monkey sits on her arm"
+        },
+        {
+          "image": "assets/img/tour-monkey-3.jpg",
+          "alt": "A mona monkey perched on a guest’s shoulder in the rainforest"
+        }
+      ],
+      "note": "",
+      "closing": "",
+      "card_kicker": "Approximately 3–4 hours · private group",
+      "card_text": "Annandale Falls, an hour on Grenada’s cocoa and chocolate-making heritage, and the Grand Etang crater lake. Admission included.",
+      "card_price": "On request"
+    },
+    {
+      "id": "waterfalls",
+      "eyebrow": "4 hours · private group",
+      "title": "Grenada Beach Escape, Waterfall, Rainforest Adventure",
+      "photo": "assets/img/beach-escape.jpg",
+      "photo_alt": "Aerial view of a Grenada beach, turquoise water and the coast toward Point Salines",
+      "intro": "Duration: 4 hours.",
+      "stops": [
+        {
+          "name": "Grand Étang National Park — 30 minutes",
+          "details": [
+            "Visit the scenic volcanic crater lake",
+            "Enjoy the cool rainforest atmosphere",
+            "Look out for Mona monkeys and other wildlife",
+            "Take photos of the surrounding rainforest"
+          ]
+        },
+        {
+          "name": "Annandale Waterfall & Forest Park — 45 minutes",
+          "details": [
+            "Explore the lush tropical surroundings",
+            "Enjoy the beautiful waterfall",
+            "Take photos",
+            "Opportunity for a refreshing swim",
+            "Admission included"
+          ]
+        },
+        {
+          "name": "BBC Beach — 2 hours",
+          "details": [
+            "Relax on the beautiful white-sand beach",
+            "Swim in the calm, crystal-clear Caribbean waters",
+            "Enjoy some free time to unwind and take in the scenery"
+          ]
+        }
+      ],
+      "included": [
+        "Private transportation",
+        "Air-conditioned vehicle",
+        "Bottled water",
+        "Admission and entrance fees",
+        "Rum punch",
+        "Alcoholic beverages",
+        "Annandale Falls admission"
+      ],
+      "route_label": "Tour flow",
+      "route": "Hotel, port or airport pickup → Grand Étang National Park → Annandale Waterfall → BBC Beach → return to pickup location.",
+      "paragraphs": [],
+      "price": "Price on request",
+      "gallery": [
+        {
+          "image": "assets/img/tour-falls-1.jpg",
+          "alt": "Guests at the waterfall pool on the King J’s rainforest tour"
+        },
+        {
+          "image": "assets/img/tour-falls-2.jpg",
+          "alt": "Two guests in the stream below the waterfall"
+        }
+      ],
+      "note": "",
+      "closing": "",
+      "card_kicker": "4 hours · private group",
+      "card_text": "Grand Étang National Park, Annandale Waterfall, then two hours on the white sand at BBC Beach.",
+      "card_price": "On request"
+    },
+    {
+      "id": "custom",
+      "eyebrow": "Pay by the hour · private group",
+      "title": "Build Your Own Tour – Pay by the Hour",
+      "photo": "assets/img/tour-custom-11.jpg",
+      "photo_alt": "River tubing on a Grenada river, seen from above",
+      "intro": "Explore Grenada at your own pace with our flexible private hourly tour option.",
+      "paragraphs": [
+        "Choose where you want to go, what you want to see, and how you want to spend your time. Whether you want to visit a waterfall, relax on the beach, explore the rainforest, discover local culture, stop for lunch, shop, take photos, or simply enjoy a scenic drive around the island — you’re in control.",
+        "Pay by the hour and create an experience that works for your schedule and interests.",
+        "Perfect for families, couples, friends, cruise passengers, and private groups who want the freedom to customize their Grenada adventure."
+      ],
+      "closing": "Tell us what you have in mind, and King J’s will help make it happen. Your time. Your choices. Your Grenada adventure.",
+      "stops": [],
+      "included": [],
+      "route_label": "",
+      "route": "",
+      "price": "Price on request",
+      "gallery": [
+        {
+          "image": "assets/img/tour-custom-1.jpg",
+          "alt": "A group with their King J’s driver at the water’s edge"
+        },
+        {
+          "image": "assets/img/tour-custom-2.jpg",
+          "alt": "A guest at a rainforest lookout above the coast"
+        },
+        {
+          "image": "assets/img/tour-custom-3.jpg",
+          "alt": "A guide helping a guest into a river tube"
+        },
+        {
+          "image": "assets/img/tour-custom-4.jpg",
+          "alt": "Guests and their driver at a hilltop lookout"
+        },
+        {
+          "image": "assets/img/tour-custom-5.jpg",
+          "alt": "Guests outside a painted shopfront in St. George’s"
+        },
+        {
+          "image": "assets/img/tour-custom-6.jpg",
+          "alt": "The driver pointing out the harbour from the pier"
+        },
+        {
+          "image": "assets/img/tour-custom-7.jpg",
+          "alt": "A waterfall through the palms on the way in"
+        },
+        {
+          "image": "assets/img/tour-custom-8.jpg",
+          "alt": "Tubes drifting down a bamboo-lined river"
+        },
+        {
+          "image": "assets/img/tour-custom-9.jpg",
+          "alt": "Looking across the Carenage from the pier in St. George’s"
+        },
+        {
+          "image": "assets/img/tour-custom-10.jpg",
+          "alt": "Three guests at a painted shopfront in town"
+        },
+        {
+          "image": "assets/img/tour-custom-11.jpg",
+          "alt": "River tubing on a Grenada river, seen from above"
+        },
+        {
+          "image": "assets/img/tour-custom-12.jpg",
+          "alt": "A tubing group working down the river"
+        },
+        {
+          "image": "assets/img/tour-custom-13.jpg",
+          "alt": "A waterfall and its pool from the air"
+        },
+        {
+          "image": "assets/img/tour-custom-14.jpg",
+          "alt": "Tubes on the rocky stretch of the river"
+        },
+        {
+          "image": "assets/img/tour-custom-15.jpg",
+          "alt": "A waterfall in the rainforest garden"
+        },
+        {
+          "image": "assets/img/tour-custom-16.jpg",
+          "alt": "Rainforest and a hidden waterfall from above"
+        },
+        {
+          "image": "assets/img/tour-custom-17.jpg",
+          "alt": "The tubing run seen from directly overhead"
+        }
+      ],
+      "note": "",
+      "card_kicker": "Pay by the hour · private group",
+      "card_text": "Choose where you want to go, what you want to see and how long you spend. Your time, your choices, your Grenada adventure.",
+      "card_price": "On request"
+    }
+  ],
+  "spicemas": {
+    "title": "Spice Mas, cricket and groups",
+    "text": "Fetes that run to the small hours, cricket at the National Stadium, dive shop shuttles and jouvert mornings. The van seats twelve together, and pickups get arranged around your band’s timing.",
+    "photos": [
+      {
+        "image": "assets/img/spicemas-1.jpg",
+        "alt": "Guests in carnival costume by the King J’s van on Spice Mas morning"
+      },
+      {
+        "image": "assets/img/spicemas-2.jpg",
+        "alt": "A jouvert group with King J’s during Spice Mas"
+      },
+      {
+        "image": "assets/img/spicemas-3.jpg",
+        "alt": "A group heading out to a fete with King J’s"
+      },
+      {
+        "image": "assets/img/spicemas-4.jpg",
+        "alt": "Two masqueraders in full carnival costume holding the King J’s sign"
+      },
+      {
+        "image": "assets/img/spicemas-5.jpg",
+        "alt": "Masqueraders with the King J’s sign above the coast"
+      }
+    ],
+    "button": "Ask about dates",
+    "eyebrow": "Groups up to 12"
+  }
+}

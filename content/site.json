@@ -1,0 +1,19 @@
+{
+  "business_name": "King J’s Taxi Service and Tours Grenada",
+  "phone_display": "+1 (473) 419 8788",
+  "whatsapp_number": "14734198788",
+  "email": "bookings@example.com",
+  "instagram": "kingjtours",
+  "address_short": "Grand Anse, St. George",
+  "address_full": "Grand Anse, St. George, Grenada",
+  "hours": "Open 24 hours",
+  "popup": {
+    "show": true,
+    "eyebrow": "Welcome to Grenada",
+    "title": "Waterfalls are waiting.",
+    "text": "Private island tours and taxis with King J’s Taxi Service and Tours Grenada — a Tripadvisor Travellers’ Choice winner.",
+    "video": "assets/video/welcome-tour-2026.mp4",
+    "poster": "assets/img/welcome-poster-2026.jpg",
+    "reel_url": "https://www.instagram.com/reel/DRnmCDOiXV9/"
+  }
+}

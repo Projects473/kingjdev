@@ -1,0 +1,57 @@
+{
+  "title": "The people driving.",
+  "intro": "Your trusted local guides to Grenada. You will know who is coming before they arrive.",
+  "drivers": [
+    {
+      "name": "Joel",
+      "role": "Owner · “King J”",
+      "bio": "With a passion for people, exceptional service, and his beautiful island home, Joel delivers more than transportation — he creates memorable Grenada experiences. From airport transfers to private island adventures, every journey is tailored with comfort, professionalism, local knowledge, and genuine Grenadian hospitality.",
+      "tagline": "Ride comfortably. Explore beautifully. Experience Grenada with Joel.",
+      "photos": [
+        {
+          "image": "assets/img/driver-joel.jpg",
+          "alt": "Joel Francis, owner of King J’s Taxi Service and Tours Grenada"
+        },
+        {
+          "image": "assets/img/driver-joel-1.jpg",
+          "alt": "Joel in front of the white King J’s van"
+        },
+        {
+          "image": "assets/img/driver-joel-2.jpg",
+          "alt": "Joel in front of the black King J’s taxi"
+        },
+        {
+          "image": "assets/img/driver-joel-3.jpg",
+          "alt": "Joel at the wheel of the white van"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "name": "Carlos",
+      "role": "Driver and guide",
+      "bio": "Carlos combines professionalism, warmth, and genuine Grenadian hospitality to make every journey special. From seamless airport transfers to unforgettable island adventures, he’s committed to providing a comfortable, personalized experience while helping you discover the beauty of Grenada.",
+      "tagline": "Ride comfortably. Explore beautifully. Experience Grenada with Carlos.",
+      "photos": [
+        {
+          "image": "assets/img/driver-carlos.jpg",
+          "alt": "Carlos, driver and guide at King J’s Taxi Service and Tours Grenada"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "name": "Deshon",
+      "role": "Driver and guide",
+      "bio": "Deshon brings a warm personality, professional service, and genuine Grenadian hospitality to every journey. Whether you’re arriving at the airport, exploring the island, or creating your own private adventure, he’s dedicated to making your experience comfortable, seamless, and memorable.",
+      "tagline": "Ride comfortably. Explore beautifully. Experience Grenada with Deshon.",
+      "photos": [
+        {
+          "image": "assets/img/driver-deshon.jpg",
+          "alt": "Deshon, driver and guide at King J’s Taxi Service and Tours Grenada"
+        }
+      ],
+      "featured": false
+    }
+  ]
+}
