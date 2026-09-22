@@ -61,6 +61,18 @@ the CMS.
 
 ---
 
+## Languages
+
+The site has a language switcher in the top bar: English, Spanish, French,
+Dutch and German. English is what's written in the pages; the other four live
+in `content/i18n/<code>.json` as a list of "English phrase": "translation".
+
+Anything without a translation shows in English, so nothing ever disappears.
+That matters when the client edits content: a tour they rewrite, or a new tour
+they add, stays English in the other languages until its lines are added to
+those four files. They appear in Pages CMS under **Translations** as raw JSON,
+which is fine for you but not something to hand to the client.
+
 ## Two things worth knowing
 
 **Prices.** Every tour currently says "Price on request". The client can type a
