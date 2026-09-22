@@ -1,0 +1,301 @@
+# Pages CMS configuration for the King J's website.
+# Sign in at https://app.pagescms.org, open this repository, and these
+# sections appear in the sidebar. Layout and design stay in the code;
+# only the words, photos, prices and contact details are editable here.
+
+media:
+  - name: images
+    label: Photos
+    input: assets/img
+    output: assets/img
+    categories: [image]
+    rename: safe
+  - name: videos
+    label: Videos
+    input: assets/video
+    output: assets/video
+    categories: [video]
+    rename: safe
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+
+components:
+  photo:
+    type: object
+    fields:
+      - name: image
+        label: Photo
+        type: image
+        required: true
+        options:
+          media: images
+      - name: alt
+        label: Short description (for screen readers and Google)
+        type: string
+
+content:
+  - name: site
+    label: Contact details & pop-up
+    type: file
+    path: content/site.json
+    operations:
+      delete: false
+    fields:
+      - name: business_name
+        label: Business name
+        type: string
+      - name: phone_display
+        label: Phone number (as it should appear)
+        type: string
+        description: For example +1 (473) 419 8788
+      - name: whatsapp_number
+        label: WhatsApp number (digits only, with country code)
+        type: string
+        pattern:
+          regex: "^[0-9]+$"
+          message: "Digits only, e.g. 14734198788"
+      - name: email
+        label: Email address
+        type: string
+      - name: instagram
+        label: Instagram username (without @)
+        type: string
+      - name: address_short
+        label: Address (short)
+        type: string
+      - name: address_full
+        label: Address (full, used in the footer)
+        type: string
+      - name: hours
+        label: Opening hours
+        type: string
+      - name: popup
+        label: Welcome pop-up
+        type: object
+        fields:
+          - name: show
+            label: Show the pop-up to visitors
+            type: boolean
+          - name: eyebrow
+            label: Small heading
+            type: string
+          - name: title
+            label: Big heading
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: video
+            label: Video (MP4)
+            type: file
+            options:
+              media: videos
+              extensions: [mp4]
+          - name: poster
+            label: Still image shown while the video loads
+            type: image
+            options:
+              media: images
+          - name: reel_url
+            label: "\"Watch the reel\" link"
+            type: string
+
+  - name: tours
+    label: Tours
+    type: file
+    path: content/tours.json
+    operations:
+      delete: false
+    fields:
+      - name: tours
+        label: Tours
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: id
+            label: Page anchor (leave as is)
+            type: string
+            description: Used for links like tours.html#chocolate. Lowercase, no spaces.
+            pattern: "^[a-z0-9-]+$"
+          - name: eyebrow
+            label: Small heading (duration, group size)
+            type: string
+          - name: title
+            label: Tour name
+            type: string
+            required: true
+          - name: intro
+            label: Opening line
+            type: text
+          - name: paragraphs
+            label: Extra paragraphs
+            type: text
+            list: true
+          - name: photo
+            label: Main photo
+            type: image
+            options:
+              media: images
+          - name: photo_alt
+            label: Main photo description
+            type: string
+          - name: stops
+            label: Stops
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - name: name
+                label: Stop and time (e.g. House of Chocolate — 30 minutes)
+                type: string
+              - name: details
+                label: Bullet points
+                type: string
+                list: true
+          - name: included
+            label: What's included
+            type: string
+            list: true
+          - name: route_label
+            label: Route heading (e.g. Tour flow)
+            type: string
+          - name: route
+            label: Route
+            type: text
+          - name: note
+            label: Extra note after the route
+            type: text
+          - name: closing
+            label: Closing line
+            type: text
+          - name: price
+            label: Price (e.g. US$120 per person, or Price on request)
+            type: string
+          - name: card_kicker
+            label: Home page card — small heading
+            type: string
+          - name: card_text
+            label: Home page card — short description
+            type: text
+          - name: card_price
+            label: Home page card — price
+            type: string
+          - name: gallery
+            label: Photo strip under the tour
+            component: photo
+            list: true
+      - name: spicemas
+        label: Spice Mas, cricket and groups
+        type: object
+        fields:
+          - name: eyebrow
+            label: Small heading
+            type: string
+          - name: title
+            label: Heading
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: button
+            label: Button text
+            type: string
+          - name: photos
+            label: Photos
+            component: photo
+            list: true
+
+  - name: drivers
+    label: Drivers
+    type: file
+    path: content/drivers.json
+    operations:
+      delete: false
+    fields:
+      - name: title
+        label: Section heading
+        type: string
+      - name: intro
+        label: Intro line
+        type: text
+      - name: drivers
+        label: Drivers
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Name
+            type: string
+            required: true
+          - name: role
+            label: Role
+            type: string
+          - name: bio
+            label: Write-up
+            type: text
+          - name: tagline
+            label: Closing line (shown in italics)
+            type: string
+          - name: featured
+            label: Show large at the top with a photo carousel
+            type: boolean
+          - name: photos
+            label: Photos
+            component: photo
+            list: true
+
+  - name: gallery
+    label: Gallery
+    type: file
+    path: content/gallery.json
+    operations:
+      delete: false
+    fields:
+      - name: video
+        label: Gallery video
+        type: object
+        fields:
+          - name: title
+            label: Heading
+            type: string
+          - name: file
+            label: Video (MP4)
+            type: file
+            options:
+              media: videos
+              extensions: [mp4]
+          - name: poster
+            label: Still image shown while the video loads
+            type: image
+            options:
+              media: images
+          - name: caption
+            label: Caption
+            type: string
+      - name: albums
+        label: Albums
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Album name
+            type: string
+          - name: photos
+            label: Photos
+            component: photo
+            list: true
